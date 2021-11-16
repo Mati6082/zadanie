@@ -1,0 +1,51 @@
+body {
+    font-size: 18px;
+    font-family: 'Arial Narrow', Arial;
+    color: black;
+    background-color: #ccffff;
+}
+
+#container {
+    width: 1000px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eff5f5;
+    padding: 10px;
+}
+
+.rectangle {
+    width: 1000px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #93ebeb;
+}
+
+#menu {
+    float: left;
+    width: 380px;
+    height: 480px;
+    background-color: #a1f7f7;
+    font-size: 36px;
+    padding: 10px;
+}
+
+#content {
+    float: left;
+    width: 580px;
+    height: 480px;
+    background-color: #000000;
+    font-size: 24px;
+    padding: 10px;
+}
+
+a.link {
+    color: #000000;
+    text-decoration: none;
+}
+
+a.link:hover {
+    color: #595959;
+    text-decoration: underline;
+}
